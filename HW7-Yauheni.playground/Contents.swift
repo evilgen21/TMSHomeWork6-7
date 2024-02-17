@@ -95,7 +95,7 @@ class School {
 }
 
 //MARK:  ---------------- Заполняем базу о школе
-// Создаем объекты для тестирования
+
 let director = Director(name: "Людмила", surname: "Петровна", age: 52, experience: 15, rating: 5)
 let address = Address(x: 55.123, y: 37.456, streetName: "Славинского ул.")
 let student1 = Student(name: "Кирилл", surname: "Барский", klass: 6, predmet: [("Математика", 3), ("Физра", 5), ("История", 3)])
